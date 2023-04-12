@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coin Detergent</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/easygpt/default.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-xWFl56+av9EJh1z2DvUVbW0eMZfJ+v0Ngd15wvFChejFlg8A9XZf1LQHtsEErDKOJcKlt01Ox5hglwPfM0KgmQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="test.js"></script>
+    <style>
+        input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        
+        input[type="text"] {
+            width: 100%;
+        }  
+
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Coin Detergent</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="jumbotron text-center">
+        <h1>Welcome to Coin Detergent</h1>
+        <p>Your one-stop solution for all your laundry needs</p>
+    </div>
+
+    <!--
+        <div class="hero text-center py-5">
+        <h1>(가명)티백 세제</h1>
+        <h2>자연을 생각하는 기업! 사람을 사랑하는 기업!</h2>
+    </div>
+    -->
+    
+
+
+    <div class="container_scroll">
+        <div class="row" data-aos="fade-up">
+            <div class="col-lg-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="http://daeju.net/products/laundry/06/images/liquid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">버블원 액체세제 14L</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">5만원</h6>
+                        <p class="card-text">강력세척, 고농축, 우수한 헹금</p>
+                        <p class="card-subtext">일반·드럼세탁기 겸용</p>
+                        <a href="https://spartacodingclub.kr/" target="_blank" class="card-link">스파르타코딩클럽 홈페이지로 이동</a>
+                    </div>
+                </div>
+            </div>
+          <!-- 나머지 카드도 위와 같은 방법으로 추가해줍니다 -->
+            <div class="col-lg-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="http://daeju.net/products/kitchen/06/images/bb1_14.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">버블원 주방세제 14L</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">5만원</h6>
+                        <p class="card-text">천연유래성분 함유!</p>
+                        <p class="card-subtext">손피부 보호성분 강화!</p>
+                        <a href="https://spartacodingclub.kr/" target="_blank" class="card-link">스파르타코딩클럽 홈페이지로 이동</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="http://daeju.net/products/bleach/08/images/h_racks_18.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">향락스 18L</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">5만원</h6>
+                        <p class="card-text">살균·소독·표백, 악취제거·세척까지!</p>
+                        <p class="card-subtext">살균, 소독, 표백, 악취제거제</p>
+                        <a href="https://spartacodingclub.kr/" target="_blank" class="card-link">스파르타코딩클럽 홈페이지로 이동</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="http://daeju.net/products/softener/04/images/r_dream_20.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">플라원 로멘틱드림 20L</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">5만원</h6>
+                        <p class="card-text">향균효과, 정전기 방지</p>
+                        <p class="card-subtext">매혹적인 향수타입, 섬유를 부드럽게!</p>
+                        <a href="https://spartacodingclub.kr/" target="_blank" class="card-link">스파르타코딩클럽 홈페이지로 이동</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="http://daeju.net/products/cleaner/01/images/auto_liquid_20.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">버블 자동세척기용 액체세제 20L</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">5만원</h6>
+                        <p class="card-text">자동세척기용 액체세제</p>
+                        <p class="card-subtext">자동세척기용 액체세제</p>
+                        <a href="https://spartacodingclub.kr/" target="_blank" class="card-link">스파르타코딩클럽 홈페이지로 이동</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="http://daeju.net/products/soda/06/images/glass14.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">유리세정제 14L</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">5만원</h6>
+                        <p class="card-text">유리의 각종 오염물을 말끔하게 제거!</p>
+                        <p class="card-subtext">얼룩제거, 김서림방지, 난반사방지!</p>
+                        <a href="https://spartacodingclub.kr/" target="_blank" class="card-link">스파르타코딩클럽 홈페이지로 이동</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      
+
+
+
+    <div id="products" class="container">
+        <div class="content">
+            <div class="row">
+                <div class="content_img">
+                    <img src="https://cdn11.bigcommerce.com/s-zn83d6/images/stencil/1280x1280/products/66/454/IMG-2983__67275.1584740657.jpg?c=2" alt="세제 패키지" class="img-fluid">
+                </div>
+                <div class="content_text">
+                    <h3>세제 패키지 소개</h3>
+                    <p>세제 패키지는 세탁의 새로운 표준으로 뛰어난 세탁 효과와 신선한 우주 향기를 제공합니다. 우주 컨셉으로 디자인된 세제 패키지는 세탁뿐만 아니라 방안에서도 아름다운 장식품으로 사용할 수 있습니다.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="row">
+                <div class="content_text">
+                    <h3>제품 정보</h3>
+                    <ul>
+                        <li>용량: 1.5L</li>
+                        <li>향기: 우주</li>
+                        <li>성분: 환경 친화적 성분</li>
+                        <li>사용 방법: 세탁기에 직접 넣어 사용</li>
+                    </ul>
+                </div>
+                <div class="content_img">
+                    <img src="https://images.unsplash.com/photo-1612399200889-bc4208f0167c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="세제 패키지" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="row">
+                <div class="content_img">
+                    <img src="https://images.unsplash.com/photo-1521656693074-0ef32e80a5d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="세제 패키지" class="img-fluid">
+                </div>
+                <div class="content_text">
+                    <h3>구매하기</h3>
+                    <p>세제 패키지는 온라인 쇼핑몰에서 구매할 수 있습니다. 현재는 코인세탁소에서도 판매 중입니다. 구매하시면 더 많은 혜택을 받으실 수 있습니다.</p>
+                    <a class="btn btn-primary" href="#">구매하기</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <form method="POST">
+                <label for="email">Email:</label>
+                <input type="email" name="email" required>
+                <br>
+                <label for="phone">Phone:</label>
+                <input type="tel" name="phone" required>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+            
+<footer class="bg-dark text-center py-3 text-white">
+    <p>세제 패키지 &copy; 2023. All Rights Reserved.</p>
+</footer>
