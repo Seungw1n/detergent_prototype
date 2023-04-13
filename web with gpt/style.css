@@ -35,9 +35,6 @@ footer {
   padding: 20px;
   box-sizing: border-box;
 }
-.content_img {
-
-}
 
 .container {
     max-width: 1200px;
@@ -62,20 +59,28 @@ footer {
 
 
 
-
-.card-container {
+.card-wrapper {
     display: flex;
-    flex-wrap: wrap;
     overflow-x: hidden; /* 가로 스크롤 숨김 */
-    margin: 0 -15px; /* Bootstrap의 row 클래스처럼 카드 사이 간격 조절 */
+    margin: 0 40px; /* Bootstrap의 row 클래스처럼 카드 사이 간격 조절 */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    width: 100%;
+    padding: 16px;
+    position: relative;
   }
   
   .card {
-    flex: 0 0 calc(33.33333% - 30px); /* 한 줄에 3개씩 배치 */
-    margin: 0 15px;
+    margin: 0 8px;
     text-align: center;
     cursor: pointer;
-    padding: 20px;
+    padding: 16px;
+    position: relative;
+    width: 240px;
+    left: 0;
+    transition: all 0.3s ease;
   }
 
   .card-img-top {
@@ -89,19 +94,17 @@ footer {
   
   .card-title {
     margin-top: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     font-size: 1.25rem;
     font-weight: bold;
   }
   
   .card-subtitle {
-    margin-bottom: 10px;
     font-size: 1rem;
     font-weight: bold;
   }
   
   .card-text {
-    margin-bottom: 15px;
     font-size: 0.875rem;
     color: #6c757d;
   }
